@@ -1,0 +1,22 @@
+Link presentación: https://www.popai.pro/share.html?shareKey=3b154de76406fdf9e8923eddeca94a5b639f95682ebb50f3ff189d06b5b910c4&utm_source=presentationsharepage&inviteCode=IN_8EyB8Cg3nYb
+
+
+
+-------- Supuestos-------
+--Los valores trabajo son uniformes, en general toda la información se supone que es uniforme.
+--Los valores son precisos y no hay nada extraordinario
+-- El riesgo no puede ser negativo y no debe superar el 20%
+--No hay impuestos adicionales
+-- Todos los valores son en la misma moneda y no hay conversiones
+-- No se asume inflación
+
+
+
+-- El proyecto en la suma de valores que se separan por separado
+-- Por la naturaleza del paradigma se DEBE separar cada uno de los proceos; se podría ver como un tubo que va pasando valores a otros tubos
+-- Por esto las funciones toman valores iniciales, con los cuales operan y devuelven un resultado, este resultado es usado por otra función para generar otro resultado
+-- Cuando este proceso llega al final se suman los resultados finales dandonos así nuestro resultado total, el cual es la suma de resultados derivados de otros procesos
+-- Con esto la programación funcional te obliga definir estrictamente los tipos, los parametros y retornos de las funciones.
+-- Luego, hay que juntar esas funcions para dar un resultado final
+-- Esta naturaleza hace que cada programa sea MUY flexible, pues la unica conexión entre funciones son sus resultados
+-- En nada importa como se llegaron a ellos. Así que si un día se necesita cambiar algo en una función, siempre y cuando retorne lo mismo, nada importará en el resto de funciones
